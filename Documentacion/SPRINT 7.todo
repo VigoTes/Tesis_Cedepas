@@ -1,0 +1,34 @@
+URGENTE BUG FIX:
+    Al subir archivos que contienen comas, mi algoritmo de separacion de nombres se paltea (pq detecta la coma) y guarda mal los nombres de los archivos.
+    Lo estoy corrigiendo mandando como JSON y decodificandolo en backend.
+    ✔ REP @done(18-11-21 15:38)
+    ✔ SOF @done(18-11-21 15:55)
+    ✔ REN @done(18-11-21 15:55)
+    ✔ REQ @done(18-11-21 15:55)
+    ✔ PROYECTOS @done(18-11-21 15:58)
+
+ 
+
+Actividades:
+    ☐ Modales de confirmar suben la pantalla para arriba y es molesto, corregir
+    ☐ Código de los PDF debe mejorarse
+    ☐ En los PDFs el nombre de AnaCeciliaAnguloAlva está como HTML, debe ser obtenido de la base de datos (por si cambia el director en el futuro)
+    ☐ Añadir loader de carga al abrir cualquier formulario (para que cargue JS)
+    ☐ La Paginación debe obtenerse de la BD y ser configurable
+    ☐ Refactorizar sistema de puestos (que un emp pueda tener varios)
+    ☐ Subir archivos a un requerimiento con el buscador maestro
+    ☐ Quitar la variable de config activarVerHistorialDeDocumentos
+    ☐ Añadir al editar documento, la opcion para ver el historial de este
+
+Para curso gerencia sistemas:
+    SOBRE SEGURIDAD DE DATOS
+    ✔ Órdenes de compra @done(11-11-21 15:43)
+    ☐ Programar Sistema de CDS automáticas de la BD:
+    que los jobs se corran cada hora, y que el sistema sea el que determine la hora y frecuencia de la CDS 
+    ☐ Sistema de CDS de los archivo
+    ☐ Sistema de gestión de errores en el sistema
+    ☐ Sistema de gestión de logeos y geolocalizacion (alertas cuando entra un user con otra ip)
+    
+Para curso Sistemas de información gerencial:
+    ✔ Generador de 100 000 registros en la tabla detalle reposición gastos (Usar faker) @done(14-11-21 18:40)
+    
